@@ -14,7 +14,7 @@ import Vista.FrmVista;
 //Hola equipo
 //Hola jsjs
 //Sut
-//agregue todas mis cajas de texto
+//agregue 10 cajas de texto-Sut
 /**
  *
  * @author Stevia

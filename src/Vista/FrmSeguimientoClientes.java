@@ -425,7 +425,7 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
     public javax.swing.JTextField txtAcuerdoTres;
     public javax.swing.JTextField txtAcuerdoUno;
     public javax.swing.JTextField txtCedula;
-    private javax.swing.JTextField txtCiudad;
+    public javax.swing.JTextField txtCiudad;
     public javax.swing.JTextField txtDireccionResidencial;
     public javax.swing.JTextField txtEmail;
     public javax.swing.JTextField txtFechaAcuerdoDos;
@@ -440,7 +440,7 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
     public javax.swing.JTextField txtRes;
     public javax.swing.JTextField txtSaldoRestante;
     public javax.swing.JTextField txtTipoCobro;
-    private javax.swing.JTextField txtTipocartera;
+    public javax.swing.JTextField txtTipocartera;
     public javax.swing.JTextField txtTra;
     public javax.swing.JTextField txtVSeguro;
     // End of variables declaration//GEN-END:variables
