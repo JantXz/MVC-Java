@@ -51,8 +51,12 @@ _view.txtId.setText(null);
 _view.txtCedula.setText(null);
 
 _view.txtpsw.setText(null);
-
-
+_view.txtLuEx.setText(null);
+_view.txtProfesion.setText(null);
+_view.txtNoCo.setText(null);
+_view.txtEmail.setText(null);
+_view.txtRes.setText(null);
+_view.txtTra.setText(null);
 _view.txtDireccionResidencial.setText(null);
 _view.txtTipocartera.setText(null);
 
