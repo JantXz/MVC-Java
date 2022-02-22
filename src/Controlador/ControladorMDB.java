@@ -51,6 +51,5 @@ _view.txtNombre.setText(null);
 _view.txtUsuario.setText(null);
 _view.txtId.setText(null);
 _view.txtpsw.setText(null);
-
 }
 }

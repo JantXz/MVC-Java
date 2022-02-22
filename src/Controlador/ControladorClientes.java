@@ -66,7 +66,7 @@ _view.txtNumFactura.setText(null);
 _view.txtFechaCredito.setText(null);
 _view.txtTipoCartera.setText(null);
 _view.txtValorCredito.setText(null);
-//_view.txtpsw.setText(null);
+_view.txtpsw.setText(null);
 _view.txtCuotas.setText(null);
 }
 }

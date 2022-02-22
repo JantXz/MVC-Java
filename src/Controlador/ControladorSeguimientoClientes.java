@@ -50,7 +50,7 @@ public void limpiar(){
 _view.txtId.setText(null);
 _view.txtCedula.setText(null);
 
-//_view.txtpsw.setText(null);
+_view.txtpsw.setText(null);
 
 
 _view.txtDireccionResidencial.setText(null);
