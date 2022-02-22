@@ -48,7 +48,11 @@ _view.setTitle("MVC_Visual");
 }
 public void limpiar(){
 _view.txtCedula.setText(null);
+_view.txtNombrecompleto.setText(null);
 _view.txtLugExp.setText(null);
+_view.txtDireccionresidencial.setText(null);
+_view.txtCiudad.setText(null);
+_view.txtDepartamneto.setText(null);
 
 
 _view.txtProfesion.setText(null);

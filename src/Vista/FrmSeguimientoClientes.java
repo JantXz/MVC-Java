@@ -47,7 +47,7 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
         txtId = new javax.swing.JTextField();
         txtCedula = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
-        txtTipotarjeta = new javax.swing.JTextField();
+        txtTipocartera = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
         txtNumFactura = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
@@ -93,6 +93,12 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
 
         jLabel10.setText("Tipo cartera");
 
+        txtTipocartera.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtTipocarteraActionPerformed(evt);
+            }
+        });
+
         jLabel11.setText("Num Factura");
 
         jLabel12.setText("Fecha Hora");
@@ -119,7 +125,7 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtTipotarjeta, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtTipocartera, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(17, 17, 17)
@@ -212,7 +218,7 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                         .addGap(39, 39, 39)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel10)
-                            .addComponent(txtTipotarjeta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtTipocartera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(40, 40, 40)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel3)
@@ -272,6 +278,10 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
     private void txtSaldoRestanteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSaldoRestanteActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtSaldoRestanteActionPerformed
+
+    private void txtTipocarteraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTipocarteraActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtTipocarteraActionPerformed
 
     /**
      * @param args the command line arguments
@@ -341,7 +351,11 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
     public javax.swing.JTextField txtNumFactura;
     public javax.swing.JTextField txtSaldoRestante;
     public javax.swing.JTextField txtTipoCobro;
-    private javax.swing.JTextField txtTipotarjeta;
+    private javax.swing.JTextField txtTipocartera;
     public javax.swing.JTextField txtVSeguro;
     // End of variables declaration//GEN-END:variables
+
+    public void txtTipotarjeta(Object object) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
