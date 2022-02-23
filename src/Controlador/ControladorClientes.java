@@ -33,7 +33,7 @@ public void actionPerformed(ActionEvent e) {
 
         if (e.getSource()==_view.cmdAlta){ //Si el botón presionado fue el de alta
          // System.out.print("paso");
-        leyenda=_model.registrarAlta("tbusuarios"," null, ' " +_view.txtNombre.getText()+" ',' " +_view.txtUsuario.getText() +" ', "+_view.txtpsw.getText() );
+        leyenda=_model.registrarAlta("tbusuarios"," null, ' " +_view.txtCedula.getText()+" ',' " +_view.txtLugExp.getText() +" ', "+_view.txtNombrecompleto.getText()+" ', "+_view.txtProfesion.getText()+" ',' " +_view.txtDireccionresidencial.getText()+" ',' " +_view.txtCiudad.getText()+" ',' " +_view.txtDepartamneto.getText()+" ',' " +_view.txtEmail.getText()+" ',' " +_view.txtTelRes.getText()+" ',' " +_view.txtTelTra.getText()+" ',' " +_view.txtNumFactura.getText()+" ',' " +_view.txtFechaCredito.getText()+" ',' " +_view.txtTipoCartera.getText()+" ',' " +_view.txtValorCredito.getText()+" ',' " +_view.txtCuotas.getText()+" ', " );
         //Se puede usar una variable o el control, lo ideal es que se pudiera llamar una función de
        // validación aquí sobre los datos obteindos de las cajas de texto
        System.out.print (leyenda);
@@ -48,25 +48,19 @@ _view.setTitle("MVC_Visual");
 }
 public void limpiar(){
 _view.txtCedula.setText(null);
-_view.txtNombrecompleto.setText(null);
 _view.txtLugExp.setText(null);
+_view.txtNombrecompleto.setText(null);
+_view.txtProfesion.setText(null);
 _view.txtDireccionresidencial.setText(null);
 _view.txtCiudad.setText(null);
 _view.txtDepartamneto.setText(null);
 _view.txtEmail.setText(null);
 _view.txtTelRes.setText(null);
 _view.txtTelTra.setText(null);
-
-_view.txtProfesion.setText(null);
-
-
-
-
 _view.txtNumFactura.setText(null);
 _view.txtFechaCredito.setText(null);
 _view.txtTipoCartera.setText(null);
 _view.txtValorCredito.setText(null);
-_view.txtpsw.setText(null);
 _view.txtCuotas.setText(null);
 }
 }
