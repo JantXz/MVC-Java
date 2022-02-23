@@ -49,31 +49,26 @@ _view.setTitle("MVC_Visual");
 public void limpiar(){
 _view.txtId.setText(null);
 _view.txtCedula.setText(null);
-
-_view.txtpsw.setText(null);
 _view.txtLuEx.setText(null);
 _view.txtProfesion.setText(null);
-_view.txtNoCo.setText(null);
+_view.txtDireccionResidencial.setText(null);
+_view.txtCiudad.setText(null);
+
 _view.txtEmail.setText(null);
 _view.txtRes.setText(null);
 _view.txtTra.setText(null);
-_view.txtDireccionResidencial.setText(null);
-_view.txtTipocartera.setText(null);
-
 _view.txtNumFactura.setText(null);
-
+_view.txtTipocartera.setText(null);
 _view.txtFechaHora.setText(null);
 
+
+_view.txtVSeguro.setText(null);
+_view.txtNoCo.setText(null);
 
 _view.txtSaldoRestante.setText(null);
 _view.txtTipoCobro.setText(null);
 _view.txtFechaAcuerdoUno.setText(null);
 _view.txtAcuerdoUno.setText(null);
-
-_view.txtVSeguro.setText(null);
-
-
-
 _view.txtFechaAcuerdoDos.setText(null);
 _view.txtAcuerdoDos.setText(null);
 _view.txtFechaAcuerdoTres.setText(null);
