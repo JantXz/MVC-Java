@@ -53,7 +53,7 @@ _view.txtLuEx.setText(null);
 _view.txtProfesion.setText(null);
 _view.txtDireccionResidencial.setText(null);
 _view.txtCiudad.setText(null);
-
+_view.txtDepartamento.setText(null);
 _view.txtEmail.setText(null);
 _view.txtRes.setText(null);
 _view.txtTra.setText(null);
@@ -73,7 +73,8 @@ _view.txtFechaAcuerdoDos.setText(null);
 _view.txtAcuerdoDos.setText(null);
 _view.txtFechaAcuerdoTres.setText(null);
 _view.txtAcuerdoTres.setText(null);
-
+_view.txtFechaAcuerdoCuatro.setText(null);
+_view.txtAcuerdoCuatro.setText(null);
 
 }
 }
