@@ -59,10 +59,11 @@ _view.txtRes.setText(null);
 _view.txtTra.setText(null);
 _view.txtNumFactura.setText(null);
 _view.txtTipocartera.setText(null);
-_view.txtFechaHora.setText(null);
-
-
+_view.txtFechaHora2.setText(null);
+_view.txtDiasmora.setText(null);
+_view.txtValmora.setText(null);
 _view.txtVSeguro.setText(null);
+_view.txtInteresmora.setText(null);
 _view.txtNoCo.setText(null);
 
 _view.txtSaldoRestante.setText(null);
